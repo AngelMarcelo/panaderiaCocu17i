@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="panaderia practicando bootstrap" />
+    <meta name="keywords" content="diseño, programacion, bootstrap" />
+    <meta name="author" content="Angel Marcelo Martinez" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/36ec14076c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--visual le da prioridad a la hoja de estio que se agrega al ultimo-->
+    <title>PanaderiaCocu</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo panaderiacocu"
+              width="60px"
+              height=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPanaderia"
+            aria-controls="navbarPanaderia"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarPanaderia">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="producto.html">Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="producto.html">Producto</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Detalle del producto pan Brioche
+          </li>
+        </ol>
+      </nav>
+      <section>
+        <h1 class="display-1 text-center">Pan Brioche</h1>
+        <hr />
+        <article class="row my-4">
+          <div class="col-sm-12 col-md-6">
+            <img
+              src="../img/productos/Brioche-larga-oscura_00059_portfolio1.jpg"
+              alt="Pan Brioche"
+              class="w-100"
+            />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Necessitatibus esse amet, magni illo sed rerum quam sint vero
+              itaque corrupti explicabo maiores accusamus! Dolore officiis,
+              accusantium illo cupiditate voluptatum iste quidem in aspernatur
+              voluptates autem.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quae quibusdam officia voluptas vel tempore at neque animi minus
+              consectetur odit doloremque, id, dolore nobis tempora molestias
+              quis molestiae. Aliquam, nihil omnis. Incidunt, perspiciatis
+              officiis?
+            </p>
+          </div>
+        </article>
+        <article class="alert alert-info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            deserunt voluptas dicta explicabo quisquam porro?
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+      <section class="container">
+        <article class="row">
+          <div class="col-sm-4 col-md-4">
+            <div>
+              <img
+                src="../img/cocu_logo-450.png"
+                alt=""
+                width="100px"
+                height=""
+              />
+              <!--tambien se puede usar class="w-50"-->
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h6>Horarios de Atención</h6>
+            <ul>
+              <li>Lunes a Viernes: 09hs - 18hs</li>
+              <li>Sabado, Domingo y feriados: 09hs - 14hs</li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <h6>Seguinos en nuestras redes sociales:</h6>
+            <a
+              href="https://www.facebook.com/Achilata-Group-101706451726817"
+              target="_blank"
+              class="me-2"
+            >
+              <i class="fab fa-facebook-square fa-2x text-light"></i
+            ></a>
+            <a href=""
+              ><i class="fab fa-instagram-square fa-2x text-light"></i
+            ></a>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
